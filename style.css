@@ -1,0 +1,165 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-image: url(http://www.plantsandanimals.ca/images/bck2018b.jpg);
+  font-family: "Rajdhani", sans-serif;
+  overflow-x: hidden;
+
+}
+
+li {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fa-bars {
+    font-size: 35px;
+    color: green;
+    margin: 20px 0 60px 0;
+    align-self: center;
+  }
+
+  .menu {
+    text-align: center;
+  }
+
+  .shows,
+  .music,
+  .contacts,
+  .mail,
+  .store {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20 0px 0 0;
+  }
+
+  .fa-times {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .logo {
+    position: absolute;
+    left: 0;
+  }
+
+  .logo img {
+    width: 300px;
+    margin: 30px 0 030px;
+    height: 150px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    width: 25%;
+    margin: auto;
+  }
+
+  .content h2 {
+    font-size: 35px;
+    color: green;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+  }
+
+  .content h2:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: auto;
+  }
+
+  .social-links a img {
+    width: 100px;
+    height: 30px;
+  }
+
+  .img2 {
+    border-radius: 10px;
+  }
+
+  .content h3:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  .content h3 {
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+  }
+
+  .anniversary {
+    display: flex;
+    justify-content: space-between;
+  }
+  .anniversary img {
+    width: 180px;
+    height: 180px;
+    border: white 2px solid;
+  }
+
+  .img3:hover {
+    transform: rotate(-10deg);
+    cursor: pointer;
+  }
+
+  .img4:hover {
+    transform: rotate(10deg);
+    cursor: pointer;
+  }
+
+  .social a i {
+    color: black;
+    font-size: 30px;
+  }
+
+  .social a i:hover {
+    color: white;
+  }
+
+  .fa-itunes,
+  .fa-instagram,
+  .fa-facebook-square {
+    padding: 0 20px 0 20px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .social {
+    margin: 10px 0 10px 0;
+  }
+}
